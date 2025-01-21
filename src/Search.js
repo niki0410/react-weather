@@ -163,8 +163,8 @@ function Search(props) {
       <div className="footer">
       This project was coded by
         <a href="https://github.com/niki0410" target="_blank" rel="noreferrer">Nikolett Hartmann</a> and is
-        <a href="https://github.com/niki0410" target="_blank" rel="noreferrer"> on GitHub</a> and
-        <a href="https://github.com/niki0410" target="_blank" rel="noreferrer">hosted on Netlify</a>
+        <a href="https://github.com/niki0410/react-weather" target="_blank" rel="noreferrer"> on GitHub</a> and
+        <a href="https://app-react-weather-app.netlify.app/" target="_blank" rel="noreferrer">hosted on Netlify</a>
       </div>
     </div>
     </div>
