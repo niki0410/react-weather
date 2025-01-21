@@ -1,0 +1,102 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .container {
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 10px 7px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .side{
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  .WeatherData {
+    margin-top: 30px;
+    opacity: 0.5;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .desc{
+    padding:0;
+    margin:0;
+  }
+  .link {
+    color: #90b389;
+  }
+  .city {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .temperature {
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    height: 40px;
+  }
+  
+  .emoji {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .tempNumber {
+    font-size: 64px;
+    display: flex;
+    align-items: center; 
+    gap: 4px;
+    position: relative;
+  }
+  
+  .celsius {
+    font-size: 14px;
+    position: absolute; 
+    top: 8px;
+    right: -20px; 
+  }
+  .temperatureForecast{
+    color:#90b389
+  }
+.minTemp{
+  opacity: 0.5;
+}
+.forecastContainer{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin:20px;
+  margin-top:30px;
+}
+.forecast{
+  display: flex;
+  flex-direction: column; 
+}
+.containerMain{
+  margin: 20px;
+  display: flex;
+}
+.footer{
+  font-size: 12px;
+  opacity: 0.5;
+  text-align: center;
+  margin-top:20px;
+}
+
+
+
+
+
+
